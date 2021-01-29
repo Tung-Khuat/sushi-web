@@ -1,0 +1,5 @@
+export const sushiActionTypes = {
+    FETCH_SUSHI_LIST: "FETCH_SUSHI_LIST",
+    CREATE_NEW_SUSHI: "CREATE_NEW_SUSHI",
+    DELETE_SUSHI: "DELETE_SUSHI",
+}
