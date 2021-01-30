@@ -48,7 +48,7 @@ function SushiDisplay({sushiList, _fetchList, _create}) {
     useEffect(()=>{
         if(!sushiList || sushiList.length < 1)
             _fetchList()
-    },[sushiList, _fetchList])
+    },[])
 
     useEffect(()=>{
         if(currentSushiInDialog) {

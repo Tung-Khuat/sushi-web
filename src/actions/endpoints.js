@@ -1,4 +1,4 @@
-const SUSHI_API_URI = process.env.API_BASE_URI || 'http://140.82.37.137:3002';
+const SUSHI_API_URI = process.env.API_BASE_URI || 'http://localhost:3002';
 
 export const sushiEndpoints = {
   // Get a list of all sushi
