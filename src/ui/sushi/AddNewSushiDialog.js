@@ -49,10 +49,16 @@ function AddNewSushiDialog({open, _setOpen, _create, enqueueSnackbar}) {
         const success = await _create(newSushi)
         if (success) {
             enqueueSnackbar("Successfully created a new sushi.", { variant: "success" })
+            resetToInitialFieldValues()
         } else {
             enqueueSnackbar("Something went wrong. Please try again later.", { variant: "error" })
         }
         setProcessing(false)
+    }
+
+    const resetToInitialFieldValues = () => {
+        setSushiName("")
+        setSushiImage("")
     }
 
     return (
