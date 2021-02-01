@@ -5,7 +5,7 @@
 This is the web UI made for the sushi app. It is mostly for learning purposes but I also plan to use this later for a bigger project I'm working on. 
 
 Services connected :
-* [sushi-services](https://https://github.com/Tung-Khuat/sushi-service)
+* [sushi-services](https://github.com/Tung-Khuat/sushi-service)
 
 More will me made in the future.
 
